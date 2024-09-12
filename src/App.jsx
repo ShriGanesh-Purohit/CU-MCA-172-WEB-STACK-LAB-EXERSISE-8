@@ -5,21 +5,21 @@ const App = () => {
   const airlines = [
     {
       id: 1,
-      title: "SkyHigh Airlines",
-      features: ["Direct flights", "In-flight entertainment", "Gourmet meals"],
-      image: "/src/assets/skyairlines.jpg"
+      title: "Forex Tips",
+      features: ["Market Trends Analysis", "Diversification", "Technical and Fundamental Analysis:"],
+      image: "/src/assets/forex.jpg"
     },
     {
       id: 2,
-      title: "Ocean Air",
-      features: ["Budget-friendly", "Frequent flyer program", "24/7 customer support"],
-      image: "/src/assets/ocean.jpg"
+      title: "AI Recomendations Stock Picks",
+      features: ["Data-Driven Insights", "Portfolio Optimization", "Personalized Recommendations"],
+      image: "/src/assets/stock.jpg"
     },
     {
       id: 3,
-      title: "Mountain Express",
-      features: ["Pet-friendly", "Extra legroom", "Free Wi-Fi"],
-      image: "src/assets/mountainairlines.jpg"
+      title: "Commodites Picks",
+      features: ["Hedging and Inflation Protection", "Leverage and Futures Contracts", "Predictive Analysis"],
+      image: "src/assets/comodity.jpg"
     }
   ];
 
