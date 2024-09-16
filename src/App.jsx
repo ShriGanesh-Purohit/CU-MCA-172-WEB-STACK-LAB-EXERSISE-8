@@ -7,7 +7,7 @@ const App = () => {
       id: 1,
       title: "Forex Tips",
       features: ["Market Trends Analysis", "Diversification", "Technical and Fundamental Analysis:"],
-      image: "/src/assets/forex.jpg"
+      image: "/src/assets/forex.jpeg"
     },
     {
       id: 2,
@@ -19,13 +19,13 @@ const App = () => {
       id: 3,
       title: "Commodites Picks",
       features: ["Hedging and Inflation Protection", "Leverage and Futures Contracts", "Predictive Analysis"],
-      image: "src/assets/comodity.jpg"
+      image: "src/assets/commodity.jpg"
     }
   ];
 
   return (
     <div className="container mx-auto px-4">
-      <h1 className="text-3xl font-bold text-center my-8">Airline Reservation</h1>
+      <h1 className="text-3xl font-bold text-center my-8">Online Trading Service</h1>
       <div className="flex flex-wrap justify-center">
         {airlines.map(airline => (
           <Card 
